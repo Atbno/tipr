@@ -118,8 +118,22 @@ class ViewController: UIViewController {
         
         tipAmountLabel.text =  String(format:" %.2f", tip / splitBetween)
         tipPercentageLabel.text = String(format: "%d", Int(tipPercentage[tipControl.selectedSegmentIndex] * 100)) + "%"
-        totalLabel.text = currencyFormatter.string(from: NSNumber(value: total))
         splitLabel.text = Int(splitStepper.value).description
+        
+        totalLabel.text = currencyFormatter.string(from: NSNumber(value: total))
+        totalLabel.alpha = 0.0
+        
+        UIView.animate(withDuration: 1, animations: {
+            // 3
+            self.totalLabel.alpha = 1.0
+          }, completion: nil)
+        
+//        UIView.transition(with: totalLabel,
+//             duration: 0.25,
+//              options: .transitionCrossDissolve,
+//           animations: { [weak self] in
+//            self?.totalLabel.text = self?.currencyFormatter.string(from: NSNumber(value: total))
+//        }, completion: nil)
     }
     
     @IBAction func copyToClipboard(_ sender: Any) {
