@@ -49,6 +49,7 @@
 		E102A64824BB3F66006DC561 /* TiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E102A64C24BB3F66006DC561 /* TiperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiperUITests.swift; sourceTree = "<group>"; };
 		E102A64E24BB3F66006DC561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E142FC6924BF5C090017CB03 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		E102A61E24BB3F63006DC561 = {
 			isa = PBXGroup;
 			children = (
+				E142FC6924BF5C090017CB03 /* README.md */,
 				E102A62924BB3F63006DC561 /* Tiper */,
 				E102A64024BB3F66006DC561 /* TiperTests */,
 				E102A64B24BB3F66006DC561 /* TiperUITests */,
