@@ -16,7 +16,6 @@
 		E102A64224BB3F66006DC561 /* TiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A64124BB3F66006DC561 /* TiperTests.swift */; };
 		E102A64D24BB3F66006DC561 /* TiperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A64C24BB3F66006DC561 /* TiperUITests.swift */; };
 		E142FC6B24BF6AB20017CB03 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142FC6A24BF6AB20017CB03 /* SettingsViewController.swift */; };
-		E142FC6D24BFB78C0017CB03 /* AnimatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142FC6C24BFB78C0017CB03 /* AnimatedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 		E102A64E24BB3F66006DC561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E142FC6924BF5C090017CB03 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E142FC6A24BF6AB20017CB03 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		E142FC6C24BFB78C0017CB03 /* AnimatedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				E102A62A24BB3F63006DC561 /* AppDelegate.swift */,
 				E102A62C24BB3F63006DC561 /* SceneDelegate.swift */,
 				E102A62E24BB3F63006DC561 /* ViewController.swift */,
-				E142FC6C24BFB78C0017CB03 /* AnimatedLabel.swift */,
 				E102A63024BB3F63006DC561 /* Main.storyboard */,
 				E142FC6A24BF6AB20017CB03 /* SettingsViewController.swift */,
 				E102A63324BB3F66006DC561 /* Assets.xcassets */,
@@ -267,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E142FC6D24BFB78C0017CB03 /* AnimatedLabel.swift in Sources */,
 				E102A62F24BB3F63006DC561 /* ViewController.swift in Sources */,
 				E102A62B24BB3F63006DC561 /* AppDelegate.swift in Sources */,
 				E102A62D24BB3F63006DC561 /* SceneDelegate.swift in Sources */,
