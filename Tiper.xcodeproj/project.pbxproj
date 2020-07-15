@@ -15,6 +15,7 @@
 		E102A63724BB3F66006DC561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E102A63524BB3F66006DC561 /* LaunchScreen.storyboard */; };
 		E102A64224BB3F66006DC561 /* TiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A64124BB3F66006DC561 /* TiperTests.swift */; };
 		E102A64D24BB3F66006DC561 /* TiperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102A64C24BB3F66006DC561 /* TiperUITests.swift */; };
+		E142FC6B24BF6AB20017CB03 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142FC6A24BF6AB20017CB03 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E102A62724BB3F63006DC561 /* Tiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E102A62724BB3F63006DC561 /* Tipr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E102A62A24BB3F63006DC561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E102A62C24BB3F63006DC561 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E102A62E24BB3F63006DC561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		E102A64C24BB3F66006DC561 /* TiperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiperUITests.swift; sourceTree = "<group>"; };
 		E102A64E24BB3F66006DC561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E142FC6924BF5C090017CB03 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E142FC6A24BF6AB20017CB03 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,7 @@
 		E102A62824BB3F63006DC561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E102A62724BB3F63006DC561 /* Tiper.app */,
+				E102A62724BB3F63006DC561 /* Tipr.app */,
 				E102A63D24BB3F66006DC561 /* TiperTests.xctest */,
 				E102A64824BB3F66006DC561 /* TiperUITests.xctest */,
 			);
@@ -105,6 +107,7 @@
 				E102A62C24BB3F63006DC561 /* SceneDelegate.swift */,
 				E102A62E24BB3F63006DC561 /* ViewController.swift */,
 				E102A63024BB3F63006DC561 /* Main.storyboard */,
+				E142FC6A24BF6AB20017CB03 /* SettingsViewController.swift */,
 				E102A63324BB3F66006DC561 /* Assets.xcassets */,
 				E102A63524BB3F66006DC561 /* LaunchScreen.storyboard */,
 				E102A63824BB3F66006DC561 /* Info.plist */,
@@ -147,7 +150,7 @@
 			);
 			name = Tiper;
 			productName = Tiper;
-			productReference = E102A62724BB3F63006DC561 /* Tiper.app */;
+			productReference = E102A62724BB3F63006DC561 /* Tipr.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E102A63C24BB3F66006DC561 /* TiperTests */ = {
@@ -264,6 +267,7 @@
 				E102A62F24BB3F63006DC561 /* ViewController.swift in Sources */,
 				E102A62B24BB3F63006DC561 /* AppDelegate.swift in Sources */,
 				E102A62D24BB3F63006DC561 /* SceneDelegate.swift in Sources */,
+				E142FC6B24BF6AB20017CB03 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +447,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anshnanda.Tiper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anshnanda.Tipr;
+				PRODUCT_NAME = Tipr;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,8 +465,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anshnanda.Tiper;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anshnanda.Tipr;
+				PRODUCT_NAME = Tipr;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
